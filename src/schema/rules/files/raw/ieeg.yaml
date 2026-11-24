@@ -13,5 +13,6 @@ ieeg:
     - .set
     - .fdt
     - .nwb
+    - .nwb.zarr/
   datatypes:
     - ieeg

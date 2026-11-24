@@ -217,6 +217,14 @@ nwb:
     A [Neurodata Without Borders](https://nwb-schema.readthedocs.io/en/latest/) file.
 
     Each recording consists of a single `.nwb` file.
+nwb_zarr:
+  value: .nwb.zarr/
+  display_name: Neurodata Without Borders Zarr Format
+  description: |
+    A [Neurodata Without Borders](https://nwb-schema.readthedocs.io/en/latest/) file
+    stored with the [Zarr](https://zarr.readthedocs.io/en/stable/) backend.
+
+    Each recording consists of a single `.nwb.zarr` directory.
 OMEBigTiff:
   value: .ome.btf
   display_name: Open Microscopy Environment BigTIFF
